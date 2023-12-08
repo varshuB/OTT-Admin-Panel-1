@@ -1,0 +1,156 @@
+
+<mat-sidenav-container autosize>
+    <mat-sidenav #sidenav mode="side" opened="true">
+        <mat-nav-list>
+        <mat-list-item >
+            <mat-icon mat-list-icon class="expand-button" (click)="isExpanded =!isExpanded" *ngIf="!isExpanded">menu</mat-icon>
+            <mat-icon mat-list-icon class="expand-button" (click)="isExpanded =!isExpanded"  *ngIf="isExpanded">close</mat-icon>
+        </mat-list-item> 
+        <mat-list-item routerLink="/admin/dashboard">
+            <mat-icon mat-list-icon class="">
+                dashboard
+             </mat-icon>
+            <span *ngIf="isExpanded" style="margin-right: 100px;">Dashboard</span>
+        </mat-list-item> 
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <mat-list-item>
+                  <mat-icon mat-list-icon class="">settings</mat-icon>
+                  <span *ngIf="isExpanded">Basic Settings</span>
+              </mat-list-item> 
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-list-item routerLink="/admin/types">
+              <mat-icon mat-list-icon class="">
+                text_fields
+                </mat-icon>
+              <span *ngIf="isExpanded">Types</span>
+          </mat-list-item> 
+          <mat-list-item  routerLink="/admin/category">
+            <mat-icon mat-list-icon class="">category</mat-icon>
+            <span *ngIf="isExpanded">Categories</span>
+        </mat-list-item> 
+        <mat-list-item routerLink="/admin/language">
+          <mat-icon mat-list-icon class="">
+            language
+            </mat-icon>
+          <span *ngIf="isExpanded">Languages</span>
+      </mat-list-item> 
+      <mat-list-item routerLink="/admin/seasons">
+        <mat-icon mat-list-icon class="">
+          format_list_numbered
+          </mat-icon>
+        <span *ngIf="isExpanded"> Seasons</span>
+    </mat-list-item> 
+    <mat-list-item routerLink="/admin/pages">
+      <mat-icon mat-list-icon class="">auto_stories</mat-icon>
+      <span *ngIf="isExpanded">Pages </span>
+  </mat-list-item> 
+  <mat-list-item routerLink="/admin/coupons">
+    <mat-icon mat-list-icon class="">sell</mat-icon>
+    <span *ngIf="isExpanded">Coupons</span>
+</mat-list-item> 
+
+ 
+<mat-list-item routerLink="/admin/cast">
+  <mat-icon mat-list-icon class="">
+    person
+    </mat-icon>
+  <span *ngIf="isExpanded">Cast</span>
+</mat-list-item> 
+<mat-list-item>
+  <mat-icon mat-list-icon class="">theaters</mat-icon>
+  <span *ngIf="isExpanded">Genre</span>
+</mat-list-item> 
+<mat-list-item>
+  <mat-icon mat-list-icon class="">picture_in_picture</mat-icon>
+  <span *ngIf="isExpanded">Banners</span>
+</mat-list-item> 
+   </mat-expansion-panel>
+        <mat-list-item routerLink="/admin/users">
+            <mat-icon mat-list-icon class="">group</mat-icon>
+            <span *ngIf="isExpanded">Users</span>
+        </mat-list-item> 
+        <mat-list-item routerLink="/admin/videos">
+            <mat-icon mat-list-icon class="">videocam</mat-icon>
+            <span *ngIf="isExpanded">Videos</span>
+        </mat-list-item> 
+        <mat-list-item routerLink="/admin/notifications">
+            <mat-icon mat-list-icon class="">notifications</mat-icon>
+            <span *ngIf="isExpanded">Notifications</span>
+        </mat-list-item>  
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <mat-list-item>
+                  <mat-icon mat-list-icon class="">smart_display
+                 </mat-icon>
+                  <span *ngIf="isExpanded">Channel Master</span>
+                </mat-list-item> 
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+          
+            <mat-list-item routerLink="/admin/channel">
+                <mat-icon mat-list-icon class="">tv</mat-icon>
+                <span *ngIf="isExpanded">Channel</span>
+            </mat-list-item> 
+            <mat-list-item routerLink="/admin/channel-banner">
+                <mat-icon mat-list-icon class="">
+                  video_camera_front
+               </mat-icon>
+                <span *ngIf="isExpanded">Channel Banner</span>
+            </mat-list-item> 
+            <mat-list-item routerLink="/admin/channel-selection">
+              <mat-icon mat-list-icon class="">
+                movie
+                </mat-icon>
+              <span *ngIf="isExpanded">Channel Section</span>
+          </mat-list-item> 
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <mat-list-item>
+                    <mat-icon mat-list-icon class="">menu</mat-icon>
+                    <span *ngIf="isExpanded">option-7</span>
+                </mat-list-item> 
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+          
+            <mat-list-item>
+                <mat-icon mat-list-icon class="">menu</mat-icon>
+                <span *ngIf="isExpanded">option-7-1</span>
+            </mat-list-item> 
+            <mat-list-item>
+                <mat-icon mat-list-icon class="">menu</mat-icon>
+                <span *ngIf="isExpanded">option-7-2</span>
+            </mat-list-item> 
+          </mat-expansion-panel>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                <mat-list-item>
+                    <mat-icon mat-list-icon class="">menu</mat-icon>
+                    <span *ngIf="isExpanded">option-8</span>
+                </mat-list-item> 
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+          
+            <mat-list-item>
+                <mat-icon mat-list-icon class="">menu</mat-icon>
+                <span *ngIf="isExpanded">option-8-1</span>
+            </mat-list-item> 
+            <mat-list-item>
+                <mat-icon mat-list-icon class="">menu</mat-icon>
+                <span *ngIf="isExpanded">option-8-2</span>
+            </mat-list-item> 
+          </mat-expansion-panel>
+    </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+

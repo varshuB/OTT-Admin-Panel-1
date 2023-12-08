@@ -1,0 +1,27 @@
+.content{
+    padding: 24px;
+}
+mat-sidenav-container{
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+}
+
+.expand-button{
+    transition:300ms ease-out;
+    float: right;
+    position: absolute;
+    right: 0;
+}
+::ng-deep .mat-expansion-panel-header{
+    padding: 0px !important;
+    padding-right: 5px !important;
+}
+::ng-deep .mat-expansion-panel-body {
+    padding: 0px 0px 0px !important;
+}
+::ng-deep .mat-expansion-panel-header-title, .mat-expansion-panel-header-description {
+    display: flex;
+    flex-grow: 1;
+    margin-right: -12px !important;
+    align-items: center;
+}

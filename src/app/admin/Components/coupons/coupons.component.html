@@ -1,0 +1,79 @@
+<div class="container-fluid row" style="margin-top: 20px;">
+    <div class="col-lg-8">
+       <mat-toolbar-row> 
+           <p>Dashboard/</p>
+           <p>Types</p> </mat-toolbar-row>
+    </div>
+     <div class="col-lg-2">
+       <button mat-raised-button color="primary" (click)="openDialog()" >Add Random</button>
+     </div>
+     <div class="col-lg-2">
+        <button mat-raised-button color="primary"  (click)="openDialog()" >Add Coupon</button>
+      </div>
+   
+   </div>
+   <div class="container-fluid">
+       <mat-card>
+           <mat-card-title>
+              
+           </mat-card-title>
+   <div class="table-responsive table-bordered">
+       <table class="table">
+           <thead>
+               <tr>
+                 <th scope="col">Unique id</th>
+                 <th scope="col">Name</th>
+                 <th scope="col">start date</th>
+                 <th scope="col">End date</th>
+                 <th scope="col">Amount Type</th>
+                 <th scope="col">Price</th>
+                 <th scope="col">Is Use</th>
+                 <th scope="col">Action</th>
+
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td scope="row">1dqdwd</td>
+                 <td>xzsPg8dY</td>
+                 <td>	2023-09-26</td>
+                 <td>2023-10-12</td>
+                 <td>Price</td>
+                 <td>	50</td>
+                 <td>One</td>
+                 <td> <mat-icon style="color: rgb(129, 137, 204);">edit</mat-icon>  <mat-icon  style="color: red;">delete</mat-icon> </td>
+               </tr>
+               <tr>
+                <td scope="row">HnXmIswdewx</td>
+                <td>sPg8dY</td>
+                <td>	2023-09-31</td>
+                <td>2023-10-16</td>
+                <td>Price</td>
+                <td>	70</td>
+                <td>One</td>
+                 <td> <mat-icon style="color: rgb(129, 137, 204);">edit</mat-icon>  <mat-icon  style="color: red;">delete</mat-icon> </td>
+               </tr>
+               <tr>
+                <td scope="row">HnXmIxedede</td>
+                <td>xzsPg8dYedwde</td>
+                <td>	2023-09-6</td>
+                <td>2023-10-10</td>
+                <td>Price</td>
+                <td>90</td>
+                <td>All</td>
+                 <td> <mat-icon style="color: rgb(129, 137, 204);">edit</mat-icon>  <mat-icon  style="color: red;">delete</mat-icon> </td>
+               </tr>
+             </tbody>
+       </table>
+     </div>
+     <nav aria-label="Page navigation example">
+       <ul class="pagination">
+         <li class="page-item"><a class="page-link" href="">Previous</a></li>
+         <li class="page-item"><a class="page-link" href="">1</a></li>
+         <li class="page-item"><a class="page-link" href="">2</a></li>
+         <li class="page-item"><a class="page-link" href="">3</a></li>
+         <li class="page-item"><a class="page-link" href="">Next</a></li>
+       </ul>
+     </nav>
+     </mat-card>
+   </div>

@@ -1,0 +1,27 @@
+mat-toolbar-row{
+    background-color: rgb(201, 211, 219);
+    height: 40px;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 30px;
+    padding-top: 13px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(129, 129, 197);
+}
+.search-section{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.search-section input{
+    width: 55%;
+    margin: 0px 20px;
+}
+.search-section label{
+    font-size: 20px;
+    font-weight: 500;
+}

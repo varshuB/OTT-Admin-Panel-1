@@ -1,0 +1,21 @@
+.app-set-label{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.form-select{
+    margin-bottom: 10px;
+}
+.img-box{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.658);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,76 @@
+<div class="container-fluid row" style="margin-top: 20px;">
+    <div class="col-lg-9">
+       <mat-toolbar-row> 
+           <p>Dashboard/</p>
+           <p>Channel Banner</p> </mat-toolbar-row>
+    </div>
+     <div class="col-lg-1">
+       <button mat-raised-button color="primary">Add Banner </button>
+     </div>
+    
+   </div>
+
+   <div class="row">
+    <div class="col-lg-6 d-flex search-section">
+        <label class="app-set-label">Search:</label>
+        <input class="form-control" type="text" value="Enter key Words" aria-label=" input example" >
+        <button mat-raised-button color="primary">SEARCH</button>
+    </div>
+
+   </div>
+   <div class="container-fluid">
+       <mat-card>
+           <mat-card-title>
+              
+           </mat-card-title>
+   <div class="table-responsive table-bordered">
+       <table class="table">
+           <thead>
+               <tr>
+                 <th scope="col">#</th>
+                 <th scope="col">Name</th>
+                 <th scope="col">Image</th>
+                 <th scope="col">Link</th>
+                 <th scope="col">Order No</th>
+                 <th scope="col">Action</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <th scope="row">1</th>
+                 <td>Aaj Tak</td>
+                 <td><img src="../../../../assets/images/no-image.png" style="width: 50px; height: 50px; border: 1px solid black; padding: 2px;"></td>
+                 <td>https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8</td>
+                 <td>1</td>
+                 <td> <mat-icon style="color: rgb(129, 137, 204);">edit</mat-icon>  <mat-icon  style="color: red;">delete</mat-icon> </td>
+               </tr>
+               <tr>
+                 <th scope="row">2</th>
+                 <td>Test Channel</td>
+                 <td><img src="../../../../assets/images/no-image.png" style="width: 50px; height: 50px; border: 1px solid black; padding: 2px;"></td>
+                 <td>https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8</td>
+                 <td>1</td>
+                 <td> <mat-icon style="color: rgb(129, 137, 204);">edit</mat-icon>  <mat-icon  style="color: red;">delete</mat-icon> </td>
+               </tr>
+               <tr>
+                 <th scope="row">3</th>
+                 <td>Live News 2</td>
+                 <td><img src="../../../../assets/images/no-image.png" style="width: 50px; height: 50px; border: 1px solid black; padding: 2px;"></td>
+                 <td>https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8</td>
+                 <td>2</td>
+                 <td> <mat-icon style="color: rgb(129, 137, 204);">edit</mat-icon>  <mat-icon  style="color: red;">delete</mat-icon> </td>
+               </tr>
+             </tbody>
+       </table>
+     </div>
+     <nav aria-label="Page navigation example">
+       <ul class="pagination">
+         <li class="page-item"><a class="page-link" href="">Previous</a></li>
+         <li class="page-item"><a class="page-link" href="">1</a></li>
+         <li class="page-item"><a class="page-link" href="">2</a></li>
+         <li class="page-item"><a class="page-link" href="">3</a></li>
+         <li class="page-item"><a class="page-link" href="">Next</a></li>
+       </ul>
+     </nav>
+     </mat-card>
+   </div>

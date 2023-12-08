@@ -1,0 +1,60 @@
+mat-toolbar-row{
+    background-color: rgb(201, 211, 219);
+    height: 40px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 13px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(129, 129, 197);
+}
+
+mat-card-title{
+    font-weight: 500;
+}
+.api-path{
+    font-weight: 500;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.imdb-input{
+    margin-right: 40px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+.Recommended-text{
+    margin-top: 10px;
+    margin-left: -45px;
+}
+.app-set-label{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.mob-radio-btn{
+    display: flex;
+    flex-direction: column;
+
+}
+.mob-radio-btn mat-radio-group {
+    margin-top: 10px;
+
+}
+.mob-radio-btn mat-radio-group mat-radio-button {
+    margin-right: 10px;
+
+}
+.img-box{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.658);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+}

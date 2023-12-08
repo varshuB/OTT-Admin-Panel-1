@@ -1,0 +1,91 @@
+.section-rounds{
+    margin-top: 50px;
+}
+.big-circle{
+    border-radius: 50%;
+    height: 160px;
+    position: relative;
+    padding: 50px;
+   z-index: 1;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.big-circle h4{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.big-circle p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.big-circle:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.big-circle:hover .small-circle{
+    z-index: -1;
+}
+.small-circle{
+position: absolute;
+top: 0;
+right: 0;
+background-color: black;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+padding: 20px;
+z-index: -6;
+}
+.small-circle mat-icon {
+color: red;
+padding-bottom: 10px;
+}
+.color-1{
+    background-color: #537c78;
+}
+.color-2{
+    background-color: #7ba591;
+}
+.color-3{
+    background-color: #cc222b;
+}
+.color-4{
+    background-color: #f15b4c;
+}
+.color-5{
+    background-color: #faa41b;
+}
+.color-6{
+    background-color: #ffd45b;
+}
+.s-color-1{
+    background-color: #b3d4d0;
+}
+.s-color-2{
+    background-color: #92c4ab;
+}
+.s-color-3{
+    background-color: #d39ea1;
+}
+.s-color-4{
+    background-color: #e0b2ad;
+}
+.s-color-5{
+    background-color: #dbc59d;
+}
+.s-color-6{
+    background-color: #d6c698;
+}
+mat-card-image{
+    width: 300px;
+    height: 200px;
+}
+@media (max-width:768px) {
+   .big-circle{
+    margin-bottom: 30px;
+   } 
+
+}

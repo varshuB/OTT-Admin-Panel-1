@@ -1,0 +1,48 @@
+<h1 mat-dialog-title></h1>
+<div mat-dialog-content>
+    <div class="row">
+   <div class="col-lg-5">
+    <label class="app-set-label">Name</label>
+    <input class="form-control" type="text" value=""  placeholder="please Enter Name" aria-label=" input example" >
+   </div>  
+   <div class="col-lg-5">
+    <label class="app-set-label">Types</label>
+    <select class="form-select" aria-label="Default select example"> 
+        <option value="1">All</option>
+        <option value="2">One</option>  
+      </select>
+</div >
+<div class="col-lg-5">
+    <mat-label>Start Date</mat-label>
+    <mat-form-field appearance="outline" style="width: 100%;">
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>  
+</div>
+<div class="col-lg-5">
+    <mat-label>End Date</mat-label>
+    <mat-form-field appearance="outline" style="width: 100%;">
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>  
+</div>
+<div class="col-lg-5">
+    <label class="app-set-label">Amount Type</label>
+    <select class="form-select" aria-label="Default select example"> 
+        <option value="1">Price</option>
+        <option value="2">Percentage</option>  
+      </select>
+</div >
+<div class="col-lg-5">
+    <label class="app-set-label">Price</label>
+    <input class="form-control" type="number" value=""  placeholder="Please Enter Price" aria-label=" input example" >
+   </div>  
+</div>
+
+</div>
+<div mat-dialog-actions align="end">
+    <button mat-raised-button color="warn" (click)="close()">CLOSE</button>
+    <button mat-raised-button color="primary">SAVE</button>
+</div>

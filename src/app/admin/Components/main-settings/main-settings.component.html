@@ -1,0 +1,362 @@
+<div class="container-fluid row" style="margin-top: 20px;">
+    <div class="col-lg-12">
+        <mat-toolbar-row>
+            <p>Dashboard/</p>
+            <p>Settings</p>
+        </mat-toolbar-row>
+    </div>
+
+</div>
+
+<mat-tab-group mat-align-tabs="center">
+    <mat-tab label="APP SETTINGS">
+        <mat-card style="margin-top: 40px;">
+            <mat-card-title>App Configrations</mat-card-title>
+            <mat-divider insert></mat-divider>
+            <mat-card-content>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h1 class="api-path">API Path</h1>
+                    </div>
+                   <div class="col-lg-10">
+                    <input class="form-control imdb-input" type="text" value="https://ottlive.iplexhms.in/api/" aria-label="Disabled input example" disabled readonly>
+                   </div>  
+                </div>
+            </mat-card-content>
+        </mat-card>
+
+
+        <mat-card style="margin-top: 40px;">
+            <mat-card-title>IMDB API Key</mat-card-title>
+            <mat-divider insert></mat-divider>
+            <mat-card-content>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h1 class="api-path">IMDB API Key</h1>
+                    </div>
+                   <div class="col-lg-9">
+                    <input class="form-control imdb-input" type="text" value="" placeholder="k_bht0d0b1" aria-label=" input example" >
+                    <p class="Recommended-text"><span>Recommended:</span>How to create IMDB API Key <a href="">Click Here</a></p>
+                   </div>  
+                </div>
+            </mat-card-content>
+            <mat-divider insert></mat-divider>
+            <mat-card-actions align="end"><button mat-raised-button color="primary">SAVE</button></mat-card-actions>
+        </mat-card>
+
+
+        <mat-card style="margin-top: 40px;">
+            <mat-card-title>App Settings</mat-card-title>
+            <mat-divider insert></mat-divider>
+            <mat-card-content>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <label class="app-set-label">App Name</label>
+                        <input class="form-control" type="text" value="OTTInfo" aria-label=" input example" >
+                    </div>
+                   <div class="col-lg-5">
+                    <label class="app-set-label">Host Email</label>
+                    <input class="form-control" type="text" value="supportinfotest.com" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-5">
+                    <label class="app-set-label">App version</label>
+                    <input class="form-control" type="text" value="1.0" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-5">
+                    <label class="app-set-label">Author</label>
+                    <input class="form-control" type="text" value="IPLex" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-5">
+                    <label class="app-set-label">Email</label>
+                    <input class="form-control" type="text" value="info@iplextechnologies.com" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-5">
+                    <label class="app-set-label">Contact</label>
+                    <input class="form-control" type="text" value="9063520007" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-10">
+                    <label class="app-set-label">App Description</label>
+                    <textarea class="form-control" aria-label="With textarea" value="a top ott information app"></textarea>
+                   </div>  
+                   <div class="col-lg-10">
+                    <label class="app-set-label">Private Policy</label>
+                    <textarea class="form-control" aria-label="With textarea" value="test@gamil.com"></textarea>
+                   </div>
+                   <div class="col-lg-10">
+                    <label class="app-set-label">Instruction</label>
+                    <textarea class="form-control" aria-label="With textarea" value="live"></textarea>
+                   </div>
+                   <div class="col-lg-5">
+                    <label class="app-set-label">App Image</label>
+                    <div class="mb-3">
+                      
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                   </div>  
+                   <div class="col-lg-5">
+                    <label class="app-set-label">Website</label>
+                    <input class="form-control" type="text" value="https://ottlive.iplexhms.in/" aria-label=" input example" >
+                   </div> 
+                   <p class="img-note-text"><span>Note:</span>Image Size must be less than 2MB.Image Height and Width less than 1000px.</p>
+                   <div class="col-lg-2">
+                    <div class="img-box">
+                        <img src="../../../../assets/images/no-image.png">
+                    </div> 
+                </div>
+                </div>
+            </mat-card-content>
+            <mat-divider insert></mat-divider>
+            <mat-card-actions align="end"><button mat-raised-button color="primary">SAVE</button></mat-card-actions>
+        </mat-card>
+
+
+        <mat-card style="margin-top: 40px;">
+            <mat-card-title>Currency Settings</mat-card-title>
+            <mat-divider insert></mat-divider>
+            <mat-card-content>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <label class="app-set-label">Currency Name</label>
+                        <input class="form-control" type="text" value="INR" aria-label=" input example" >
+                    </div>
+                   <div class="col-lg-5">
+                    <label class="app-set-label">Currency Code</label>
+                    <input class="form-control" type="text" value="Rs" aria-label=" input example" >
+                   </div>  
+                </div>
+            </mat-card-content>
+            <mat-divider insert></mat-divider>
+            <mat-card-actions align="end"><button mat-raised-button color="primary">SAVE</button></mat-card-actions>
+        </mat-card>
+
+    </mat-tab>
+
+
+    <mat-tab label="SOCIAL SETTINGS">
+
+        <mat-card style="margin-top: 40px;">
+            <mat-card-title>Social Links</mat-card-title>
+            <mat-divider insert></mat-divider>
+            <mat-card-content>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <label class="app-set-label">Name</label>
+                        <input class="form-control" type="text" value="" placeholder="Enter URL Name" aria-label=" input example" >
+                    </div>
+                   <div class="col-lg-5">
+                    <label class="app-set-label">URL</label>
+                    <input class="form-control" type="text" value=""  placeholder="Enter URL" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-2">
+                    <button mat-mini-fab disabled aria-label="Example icon button with a home icon" style="background-color: green;margin-top: 35px;">
+                        <mat-icon style="color: white;">add</mat-icon>
+                      </button>
+                   </div>
+                   <div class="col-lg-5">
+                    <label class="app-set-label">Icon</label>
+                    <div class="mb-3">
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                      <p class="img-note-text"><span>Note:</span>Image Size must be less than 2MB.Image Height and Width less than 1000px.</p>
+                   </div> 
+                
+                   <div class="col-lg-2">
+                    <div class="img-box">
+                        <img src="../../../../assets/images/no-image.png">
+                    </div> 
+                </div> 
+                </div>
+            </mat-card-content>
+            <mat-divider insert></mat-divider>
+            <mat-card-actions align="end"><button mat-raised-button color="primary">SAVE</button></mat-card-actions>
+        </mat-card>
+
+
+    </mat-tab>
+    <mat-tab label="CHANGE PASSWORD">
+
+        
+        <mat-card style="margin-top: 40px;">
+            <mat-card-title>Change Password</mat-card-title>
+            <mat-divider insert></mat-divider>
+            <mat-card-content>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <label class="app-set-label">New Password</label>
+                        <input class="form-control" type="text" value="" placeholder="Enter New password" aria-label=" input example" >
+                    </div>
+                   <div class="col-lg-5">
+                    <label class="app-set-label">Confirm password</label>
+                    <input class="form-control" type="text" value=""  placeholder="Enter Confirm password" aria-label=" input example" >
+                   </div>  
+                </div>
+            </mat-card-content>
+            <mat-divider insert></mat-divider>
+            <mat-card-actions align="end"><button mat-raised-button color="primary">SAVE</button></mat-card-actions>
+        </mat-card>
+    </mat-tab>
+    <mat-tab label="ADMOB">
+
+        <mat-card style="margin-top: 40px;">
+            <mat-card-title>Android Settings</mat-card-title>
+            <mat-divider insert></mat-divider>
+            <mat-card-content>
+                <div class="row"> 
+                    <div class="col-lg-4 mob-radio-btn">
+                        <label class="app-set-label">Banner Ad</label>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Yes</mat-radio-button>
+                            <mat-radio-button value="2">No</mat-radio-button>
+                          </mat-radio-group>
+                    </div>
+                    <div class="col-lg-4 mob-radio-btn">
+                        <label class="app-set-label">Banner Ad</label>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Yes</mat-radio-button>
+                            <mat-radio-button value="2">No</mat-radio-button>
+                          </mat-radio-group>
+                    </div>
+                    <div class="col-lg-4 mob-radio-btn">
+                        <label class="app-set-label">Banner Ad</label>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Yes</mat-radio-button>
+                            <mat-radio-button value="2">No</mat-radio-button>
+                          </mat-radio-group>
+                    </div>
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Banner Ad ID</label>
+                    <input class="form-control" type="text" value=""  placeholder="Enter Banner Id" aria-label=" input example" >
+                   </div>
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Interstital Ad ID</label>
+                    <input class="form-control" type="text" value=""  placeholder="Enter Interstital Id" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Reward Ad Id</label>
+                    <input class="form-control" type="text" value=""  placeholder="Enter Reward Id" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-4">
+           
+                   </div> 
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Interstital Ad Click</label>
+                    <input class="form-control" type="text" value=""  placeholder="5" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Reward Ad Click</label>
+                    <input class="form-control" type="text" value=""  placeholder="88" aria-label=" input example" >
+                   </div>    
+                </div>
+            </mat-card-content>
+            <mat-divider insert></mat-divider>
+            <mat-card-actions align="end"><button mat-raised-button color="primary">SAVE</button></mat-card-actions>
+        </mat-card>
+
+        <mat-card style="margin-top: 40px;">
+            <mat-card-title>IOS Settings</mat-card-title>
+            <mat-divider insert></mat-divider>
+            <mat-card-content>
+                <div class="row"> 
+                    <div class="col-lg-4 mob-radio-btn">
+                        <label class="app-set-label">Banner Ad</label>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Yes</mat-radio-button>
+                            <mat-radio-button value="2">No</mat-radio-button>
+                          </mat-radio-group>
+                    </div>
+                    <div class="col-lg-4 mob-radio-btn">
+                        <label class="app-set-label">Banner Ad</label>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Yes</mat-radio-button>
+                            <mat-radio-button value="2">No</mat-radio-button>
+                          </mat-radio-group>
+                    </div>
+                    <div class="col-lg-4 mob-radio-btn">
+                        <label class="app-set-label">Banner Ad</label>
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1">Yes</mat-radio-button>
+                            <mat-radio-button value="2">No</mat-radio-button>
+                          </mat-radio-group>
+                    </div>
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Banner Ad ID</label>
+                    <input class="form-control" type="text" value=""  placeholder="Enter Banner Id" aria-label=" input example" >
+                   </div>
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Interstital Ad ID</label>
+                    <input class="form-control" type="text" value=""  placeholder="Enter Interstital Id" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Reward Ad Id</label>
+                    <input class="form-control" type="text" value=""  placeholder="Enter Reward Id" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-4">
+           
+                   </div> 
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Interstital Ad Click</label>
+                    <input class="form-control" type="text" value=""  placeholder="5" aria-label=" input example" >
+                   </div>  
+                   <div class="col-lg-4">
+                    <label class="app-set-label">Reward Ad Click</label>
+                    <input class="form-control" type="text" value=""  placeholder="88" aria-label=" input example" >
+                   </div>    
+                </div>
+            </mat-card-content>
+            <mat-divider insert></mat-divider>
+            <mat-card-actions align="end"><button mat-raised-button color="primary">SAVE</button></mat-card-actions>
+        </mat-card>
+
+
+    </mat-tab>
+    <mat-tab label="EMAIL SETTINGS[SMTP]"> 
+         <mat-card style="margin-top: 40px;">
+        <mat-card-title>Email Setting[SMTP]</mat-card-title>
+        <mat-divider insert></mat-divider>
+        <mat-card-content>
+            <div class="row">
+                <div class="col-lg-5">
+                    <label class="app-set-label">IS SMTP Active</label>
+                    <select class="form-select" aria-label="Default select example">
+                       
+                        <option value="1">Yes</option>
+                        <option value="2">NO</option>
+                        
+                      </select>
+                </div>
+               <div class="col-lg-5">
+                <label class="app-set-label">Host</label>
+                <input class="form-control" type="text" value=""  placeholder="smtp.gmail.com" aria-label=" input example" >
+               </div>  
+               <div class="col-lg-5">
+                <label class="app-set-label">Port</label>
+                <input class="form-control" type="text" value="" placeholder="587" aria-label=" input example" >
+            </div>
+           <div class="col-lg-5">
+            <label class="app-set-label">Protocol</label>
+            <input class="form-control" type="text" value=""  placeholder="smtp123" aria-label=" input example" >
+           </div>  
+           <div class="col-lg-5">
+            <label class="app-set-label">User Name</label>
+            <input class="form-control" type="text" value="" placeholder="developer" aria-label=" input example" >
+        </div>
+       <div class="col-lg-5">
+        <label class="app-set-label">password</label>
+        <input class="form-control" type="password" value="gewyewueh"  placeholder="Enter Confirm password" aria-label=" input example" >
+        <p class="password-rec-text"><span>Recommended:</span>Search for better results  <a href="">Click Here</a></p>
+       </div> 
+       <div class="col-lg-5">
+        <label class="app-set-label">From Name</label>
+        <input class="form-control" type="text" value=""  placeholder="smtp123" aria-label=" input example" >
+       </div>  
+       <div class="col-lg-5">
+        <label class="app-set-label">From Email</label>
+        <input class="form-control" type="text" value=""  placeholder="smtp123" aria-label=" input example" >
+       </div>  
+            </div>
+        </mat-card-content>
+        <mat-divider insert></mat-divider>
+        <mat-card-actions align="end"><button mat-raised-button color="primary">SAVE</button></mat-card-actions>
+    </mat-card>
+</mat-tab>
+</mat-tab-group>
